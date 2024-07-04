@@ -7,8 +7,7 @@ import pyperclip
 # متن کپی شده از کلیپ برد را دریافت کنید
 text = pyperclip.paste()
 
-
-# کد خود را در اینجا پیاده سازی کنید
+# تغغیرات را اعمال کنید
 
 text = text.replace('\r', ' ')
 text = text.replace('\n', ' ')
